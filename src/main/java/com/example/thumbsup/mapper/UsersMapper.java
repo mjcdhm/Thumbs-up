@@ -2,6 +2,7 @@ package com.example.thumbsup.mapper;
 
 import com.example.thumbsup.model.Users;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Insert;
 
 /**
 * @author 15896
@@ -10,6 +11,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @Entity com.example.thumbsup.model.Users
 */
 public interface UsersMapper extends BaseMapper<Users> {
+
 
 }
 

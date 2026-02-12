@@ -33,7 +33,7 @@ public class UserLikesServiceImpl extends ServiceImpl<UserLikesMapper, UserLikes
     @Autowired
     private DecimalMaxValidatorForBigInteger decimalMaxValidatorForBigInteger;
 
-    //    @Override
+//        @Override
 //    @Transactional(rollbackFor = Exception.class);
     public void likeOrUnLike(String userId, LikeRequest request) {
 // 1. 先查询当前状态 (幂等性检查的关键)
